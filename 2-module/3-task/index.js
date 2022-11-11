@@ -7,9 +7,9 @@ let calculator = {
     return this.a * this.b;
   },
 
-  read() {
-    this.a = +prompt('a?', 3);
-    this.b = +prompt('b?', 5);
+  read(a, b) {
+    this.a = a;
+    this.b = b;
   }
 };
 
