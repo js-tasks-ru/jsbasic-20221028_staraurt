@@ -1,3 +1,12 @@
-function namify(users) {
-  // ваш код...
-}
+let vasya = { name: 'Вася', age: 25 };
+let petya = { name: 'Петя', age: 30 };
+let masha = { name: 'Маша', age: 28 };
+
+ let users = [ vasya, petya, masha ];
+
+  let results = users.map((users) => {
+    return `${users.name}`
+  });
+                            
+  console.log(results)
+
